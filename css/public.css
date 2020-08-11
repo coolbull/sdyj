@@ -1,0 +1,38 @@
+*{ margin:0; padding:0;}
+html,body{ width:100%;}
+body{ margin:0 auto;font-family:'微软雅黑',Arial;}
+a{text-decoration:none;color:#000;}
+a:hover{text-decoration:none;}
+/*去除点击高亮效果  pointer-events: none;*/
+a,button,input,img,label{-webkit-appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;outline:medium none;}
+input::-moz-focus-inner{border:none;padding:0;}
+select, input{vertical-align:middle;}
+ul,ol,li{list-style:none;}
+.cz_center{display: box;display: -webkit-box; display: -moz-box; -webkit-box-pack:center; -moz-box-pack:center; -webkit-box-align:center; -moz-box-align:center; }
+.cz_end{display:-webkit-box;  -webkit-box-pack:end;  -webkit-box-align:end; }
+.cz_start{display:-webkit-box;  -webkit-box-pack:start;  -webkit-box-align:start; }
+/*清除样式*/
+.form-control,.btn{border-radius: 0 !important;}
+.form-control:focus{border-color: #009844 !important;box-shadow: none !important;}
+.box-shadow{box-shadow: 0 0 10px rgba(14, 14, 14, 0.07);}
+
+
+.triangle:after{display: block;content: '';width: 0;height: 0;border-bottom: 29px solid #009844;border-left: 48px solid transparent;margin-left: auto;margin-top: 10px;}
+
+.froms{border-radius: 5px;}
+.lvz{font-size: 16px;color: #009844;padding: 30px 27px 20px;border-bottom: 1px solid #D1D1D1;position: relative;}
+.lvz:after{display: block;content: '';width: 78px;height: 3px;background: #009844;position: absolute;left: 0;bottom: 0;}
+.dfroms{padding: 20px 20px 30px;}
+.dfromsitem{height: 28px;background: #F9F9F9;margin-bottom: 10px;display: flex;align-items: center;}
+.dfromsitem span{color: #B0B0B0;}
+.dfromsinpt{height: 28px;padding: 0 10px;background: transparent;outline: none;display: block;color: #666;background-image: none;border: 1px solid #F9F9F9;}
+.dfromsinpt:focus{border-color: #009844 !important;}
+.dfroms .sub{width: 100%;height: 32px;background: #009844;text-align: center;line-height: 32px;font-size: 14px;color: #fff;margin: 20px 0 0;}
+.kefuBox{border-bottom: 2px solid #E8E8E8;padding: 20px 30px 40px;}
+.kefuBox img{display: block;width: 128px;height: 140px;margin: 0 auto 30px;}
+.kefuBox p{width: 100%;height: 30px;font-size: 18px;color: #fff;border-radius: 5px;background: #686868;text-align: center;line-height: 30px;}
+.telBox{padding: 40px 0 20px;}
+.telBox p{font-size: 22px;color: #676767;text-align: center;}
+.telBox h1{font-size: 30px;color: #868686;font-weight: bold;text-align: center;}
+.telBox img{display: block;width: 95px;height: 67px;margin: 36px auto 0;}
+

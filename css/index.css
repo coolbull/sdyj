@@ -1,0 +1,266 @@
+.swiper-slide{
+    position: relative;
+}
+.appointment-con{
+    width: 1190px;
+    margin: 0px auto;
+}
+.form-control:focus{
+    border-color: #009844 !important;
+}
+.title_gla_h4{
+    margin-top: 30px;
+    margin-bottom: 8px;
+    color: #535353;
+    font-weight: 600;
+    font-size: 20px;
+}
+.title_gla_h5{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #d1d1d1;
+}
+.title_gla_h5 span{
+    color: #009844;
+}
+.appointment-con .appointment-share{
+    padding: 60px;
+    min-width: 1190px;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #d6d6d6;
+}
+.appointment-con .appointment-share .form-control:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.serviceItems{
+    background-color: #f4f4f4;
+    margin-top: 60px;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.serviceItems_con{
+    width: 1190px;
+    margin: 0 auto;
+}
+.serviceItems_con .serviceItems_con_item {
+    display: flex;
+    justify-content: space-between;
+}
+.serviceItems_con .serviceItems_con_item .list{
+    width: 270px;
+    height: 290px;
+    background-color: #fff;
+}
+.serviceItems_con_item .list .img div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    margin-top: 40px;
+}
+.serviceItems_con_item .zixun{
+    text-align: center;
+    margin-top: 40px;
+}
+.serviceItems_con_item .zixun button:nth-child(1){
+    margin-right: 20px;
+}
+.serviceItems_con_item .list h4{
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.serviceItems_con_item .list p{
+    font-size: 14px;
+}
+.serviceItems_con_item .list .img img{
+    /*margin-top: 40px;*/
+    /*margin-bottom: 10px;*/
+}
+
+.briefIntroduction-con{
+    height: 440px;
+    background: url("../images/index/1.jpg") center center / 100% 440px no-repeat;
+    border-top: 1px solid transparent;
+}
+.briefIntroduction-con .text_{
+    display: flex;
+    background-color: #fff;
+    width: 1110px;
+    /*height: 210px;*/
+    box-sizing: border-box;
+    margin: 0px auto;
+    padding: 40px 20px;
+    align-items: center;
+
+}
+.briefIntroduction-con .title h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+.briefIntroduction-con .title p{
+    font-size: 13px;
+    margin-bottom: 26px;
+}
+.briefIntroduction-con .title p span{
+    color: #009844;
+}
+.briefIntroduction-con .text-right div{
+    font-size: 16px;
+    font-weight: 600;
+}
+.briefIntroduction-con .text-right {
+    text-indent: 2em;
+    font-size: 14px;
+}
+.briefIntroduction-con .text_ .text-left {
+    color: #4a4846;
+}
+.briefIntroduction-con .text_ .con-right {
+    margin-left: 20px;
+}
+
+
+.briefIntroduction-con .text_ .text-left div{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.briefIntroduction-con .text_ .text-left p{
+    font-size: 14px;
+}
+.serviceItems_con_item .zixun p{
+    padding: 0px 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    line-height: 25px;
+}
+.youshi .list h4{
+    margin-top: 30px;
+    font-weight: 600;
+}
+/*.youshi .title_gla_h4{
+    color: #535353;
+    font-weight: 600;
+    font-size: 20px;
+}*/
+
+.video_zhanshi{
+    height: 777px;
+    min-width: 1190px;
+    background: url("../images/index/2.jpg") center 0px / 100% 100% no-repeat;
+    margin: 0px auto;
+}
+.video_zhanshi ul{
+    padding: 0 270px;
+    width: 1190px;
+    overflow: hidden;
+    margin: 0 auto;
+    /*margin-left: -40px;*/
+}
+.video_zhanshi ul li:nth-child(1){
+    margin-left: 0px;
+}
+.video_zhanshi ul li{
+    position: relative;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 18px;
+    padding-right: 20px;
+    margin-left: 40px;
+    border: 2px solid transparent;
+}
+.video_zhanshi ul .border_color{
+    border: 2px solid #00bf3e;
+    border-radius: 5px;
+}
+.video_zhanshi ul li .icon{
+    position: absolute;
+    top: -5px;
+    left: 4px;
+}
+
+.video_zhanshi .vidoo_con .video{
+    width: 746px;
+    height: 470px;
+    margin-top: 45px;
+}
+.news-con{
+    width: 1190px;
+    margin: 0px auto;
+}
+.news-con .news-cen{
+    margin-left: -32px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    /*width: 1190px;
+    margin: 0 auto;*/
+}
+.news-cen .new-list{
+    position: relative;
+    float: left;
+    margin-left: 32px;
+    width: 273px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #d6d6d6;
+    /*box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px #000;*/
+    /*box-shadow: 0 0 10px red;*/
+
+
+}
+.new-img{
+    border-radius: 10px;
+}
+.news-cen .new-list img{
+    width: 100%;
+}
+.news-cen .new-list p{
+    padding-left: 14px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.news-cen .new-list .bg_color{
+    background-color: #45b175;
+    padding-left: 14px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.positon_ab{
+    position: absolute;
+}
+.new-list .gengduo{
+    color: #45b175;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

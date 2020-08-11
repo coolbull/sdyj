@@ -1,0 +1,341 @@
+a:hover{
+    text-decoration: none;
+    color: #314138;
+}
+.swiper-container {
+    width: 100%;
+}
+.detail-swiper{
+    height: 170px;
+    width: 1144px;
+    border-radius: 14px;
+    margin-top: 14px;
+    margin-bottom: 21px;
+}
+.swiper-slide, .swiper-slide img {
+    width: 100%;
+}
+.swiper-slide{
+    position: relative;
+}
+.appointment-con{
+    width: 1190px;
+    margin: 0px auto;
+}
+
+.banner .swiper-pagination-bullet {
+    width: 24px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 10px;
+    background: #000;
+    opacity: .2;
+}
+.banner .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #2abe63;
+}
+.banner{
+    min-width: 1190px;
+}
+.swiper-slide a{
+    position: absolute;
+    width: 12%;
+    height: 10%;
+    left: 21%;
+    bottom: 24%;
+}
+.min-width{
+    min-width: 1190px;
+}
+.header_con{
+    width: 1144px;
+    margin: 0px auto;
+}
+.container{
+    padding: 0px !important;
+}
+li:hover{
+    cursor: pointer;
+}
+ul{
+    margin-bottom: 0px;
+}
+.header {background: #fff;}
+.header_con{
+    /*overflow: hidden;*/
+    height: 74px;
+}
+.header_con:after{
+    content: ' ';
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+.header_con h1{
+    float: left;
+    text-indent: -9999px;
+    margin-bottom: 0px;
+    height: 74px;
+    overflow: hidden;
+    margin: 0px !important;
+}
+.header_con h1 a{
+    display: block;
+    width: 162px;
+    height: 74px;
+    background: url("../images/index/logo.png")0px 2px / 100% 72px no-repeat;
+}
+.header_con ul{
+    float: right;
+}
+.header_con ul li{
+    float: left;
+    height: 74px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #314138;
+    padding: 0px 28px;
+    line-height: 74px;
+    position: relative;
+}
+.header_con ul li:hover{
+    background: #f6f6f6;
+}
+.header_con ul li:hover .color2,.header_con ul li:hover span.color1{
+    color: #009844;
+}
+.header_con ul li:hover .er_nav{
+    display: block;
+    z-index: 9;
+}
+.header_con ul li:hover p{
+    color: #314138;
+}
+.header_con ul li a{
+    /*font-size: 14px;
+    font-weight: 600;*/
+    color: #314138;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.color_ a,.color_ span{
+    color: #009844 !important;
+}
+li .er_nav{
+    position: absolute;
+    bottom: -140px;
+    left: 0px;
+    min-width: 132px;
+    padding-top: 10px;
+    background: white;
+    /*padding-left: 12px;*/
+    padding-bottom: 10px;
+    display: none;
+}
+li .er_nav p{
+    padding: 0px 16px;
+    padding-left: 28px;
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+li .er_nav p:hover{
+    background-color: #f6f6f6;
+}
+li .er_nav p:hover a{
+    color: #009844 !important;
+}
+.header_gla h2{
+    font-weight: 600;
+    color: #535353;
+    font-size: 18px;
+
+}
+.header_gla p{
+    font-size: 14px;
+}
+.header_gla p span{
+    color: #009844 !important;
+}
+.margin-top60{
+    margin-top: 60px;
+}
+.margin-bottom40{
+    margin-bottom: 40px;
+}
+
+.margin-top40{
+    margin-top: 40px;
+}
+
+
+
+.padding-bottom50{
+    padding-bottom: 50px;
+}
+.font-size22{
+    font-size: 22px;
+}
+.font-size16{
+    font-size: 16px;
+}
+.margin-top20{
+    margin-top: 20px;
+}
+.background_fff{
+    background-color: #ffffff;
+}
+.color_119f50{
+    color: #119f50;
+}
+.service-bot{
+    background-color: #55ba83;
+}
+.service-bot-con{
+    width: 1190px;
+    margin: 0px auto;
+    height: 186px;
+    background: url("../images/index/16.png") center bottom / 1140px 166px no-repeat;
+    box-sizing: border-box;
+    border-top: 1px solid transparent;
+}
+.service-bot-con .service-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.service-bot-con .service-item .service-list-left img{
+    width: 140px;
+    margin-right: 18px;
+}
+.service-bot-con .service-item .service-list-left .text{
+    float: right;
+    margin-top: 30px;
+    color: #fff;
+
+}
+.service-list-left .text h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.service-list-left .text p{
+    font-size: 16px;
+
+}
+.service-list-right ul{
+    margin-top: 30px;
+}
+.service-list-right ul li{
+    float: left;
+    margin-left: 40px;
+}
+
+.service-list-right ul li .img-con{
+    margin-bottom: 10px;
+    height: 62px;
+}
+.service-list-right ul li .img-con img{
+    vertical-align: middle;
+}
+.service-list-right ul li p{
+    color: #fff;
+}
+.service-list-right ul li p span{
+    font-size: 26px;
+}
+
+
+
+
+.bottom{
+    background-color: #44444c;
+}
+.bottom-con .bottom-item{
+    display: flex;
+    margin-top: 50px;
+}
+.bottom-con .bottom-item .bottom-list{
+    color: #fff;
+}
+.bottom-item .bottom-list p{
+    margin: 0px;
+}
+.bottom-item .bottom-list .rexian{
+    font-size: 18px;
+    margin-top: 16px;
+}
+.bottom-item .bottom-list .dianhua{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+.bottom-con .bottom-item .bottom-list1 .zixun{
+    padding: 0px 36px;
+    height: 42px;
+    line-height: 42px;
+    background: #0de66e;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.bottom-con{
+    height: 320px;
+    width: 1190px;
+    margin: 0px auto;
+    /*padding-top: 54px;*/
+    border-top: 1px solid transparent;
+}
+.bottom-list ul{
+    /*display: flex;*/
+}
+.weixing{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/index/weixin.png") 0px 0px / 100% 100% no-repeat;
+    margin-right: 14px;
+}
+.qq{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/index/qq.png") 0px 0px / 100% 100% no-repeat;
+    margin-right: 14px;
+}
+.weibo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/index/weibo.png") 0px 0px / 100% 100% no-repeat;
+}
+.bottom-item .bottom-list3{
+    padding-left: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.bottom-item .bottom-list2{
+    margin-left: 80px;
+}
+.bottom-item .bottom-list3 h3{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.bottom-item .bottom-list3 li{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.clearfix{zoom: 1;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+
+
+
+
+
+
