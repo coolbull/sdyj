@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="font/iconfont.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.dowebok.com/98/css/animate.min.css"> -->
-    <!--<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
-    <!-- <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <title>首页</title>
 </head>
 <body>
@@ -119,8 +119,11 @@
                     <div class="form-row clearfix">
                         <div class="form-group col-md-4">
                             <select id="inputState" class="form-control">
-                                <option selected>Choose...</option>
-                                <option>...</option>
+                                <option selected>请选择预约项目</option>
+                                <option>日常保洁</option>
+                                <option>开荒保洁</option>
+                                <option>家电视频</option>
+                                <option>上门除甲醛</option>
                             </select>
                         </div>
                         <div class="form-group col-md-4">
@@ -316,15 +319,24 @@
                 <h2>速达易家视频展示</h2>
                 <p> Video <span>presentation</span> </p>
             </div>
-            <ul>
-                <li class="border_color"><span class="icon iconfont">&#xe606;</span> 日常保洁</li>
-                <li class=""><span class="icon iconfont">&#xe606;</span> 开荒保洁</li>
-                <li class=""><span class="icon iconfont">&#xe606;</span> 家电清洗</li>
-                <li class=""><span class="icon iconfont">&#xe606;</span> 上门除甲醛</li>
+            <ul class="listitem">
+                <li class="border_color"> 日常保洁</li>
+                <li class="" style="color: white;">开荒保洁</li>
+                <li class="" style="color: white;">家电清洗</li>
+                <li class="" style="color: white;">上门除甲醛</li>
                 <!-- <li class=""><span class="icon iconfont">&#xe606;</span> 日常保洁</li> -->
             </ul>
             <div class="vidoo_con text-center">
                 <video preload controls class="video" src="video/housekeeping.mp4"></video>
+            </div>
+            <div class="vidoo_con text-center">
+                <video preload controls class="video" src="video/housekeeping.mp4"></video>
+            </div>
+            <div class="vidoo_con text-center">
+                <video preload controls class="video" src="video/Appliances.mp4"></video>
+            </div>
+            <div class="vidoo_con text-center">
+                <video preload controls class="video" src="video\Formaldehyde.mp4"></video>
             </div>
         </div>
     </div>
@@ -421,7 +433,7 @@
                 <div class="bottom-list bottom-list1">
                     <div class="zixun">在线咨询</div>
                     <p class="rexian">全国服务热线</p>
-                    <p class="dianhua">400-836-0510</p>
+                    <p class="dianhua">400-001-5021</p>
                     <p><span class="weixing"></span> <span class=" qq"></span> <span class=" weibo"></span></p>
                 </div>
                 <div class="bottom-list bottom-list2">
@@ -515,6 +527,12 @@
             locale: moment.locale('zh-cn')
 
         });
+        $(".listitem").find("li").click(function(){
+            $(".listitem").find("li").attr("class","");
+            $(".vidoo_con").css("display","none");
+            $(this).attr("class","border_color"); 
+            $(".vidoo_con").eq($(this).index()).css("display","block")
+        })
     })
 </script>
 <!-- <script src="https://cdn.dowebok.com/131/js/wow.min.js"></script> -->

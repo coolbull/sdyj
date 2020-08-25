@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="font/iconfont.css">
 	<link rel="stylesheet" href="css/openUpWasteland.css">
 	<link rel="stylesheet" href="css/animate.min.css">
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="">
@@ -119,43 +121,50 @@
                         <p class="text-center font-size16">video&nbsp;&nbsp;<span class="color_119f50">presentation</span></p>
                         <div class="video_cen text-center">
                             <!--<video  preload="" controls="" class="video1" src=""></video>-->
-                            <video preload="" controls="" class="video1" id="video_id" src="http://www.51tiaoyin.com/themes/simpleboot3/public/images/home/9efb76d1a32ca73836712c1e097c43df.mp4"></video>
+                            <video preload="" controls="" class="video1" id="video_id" src="video\Formaldehyde.mp4"></video>
                         </div>
                     </div>
                     <div class="appointment border_1px margin-top20 background_fff triangle box-shadow wow fadeInUp">
                     	<h2 class="margin-top40 text-center font-size22">预约上门除甲醛</h2>
                     	<p class="text-center font-size16">Door-to-<span class="color_119f50">time</span></p>
                     	<div class="appointment-share">
-			                <form>
-			                    <div class="form-row clearfix">
-			                        <div class="form-group col-md-4">
-			                            <input type="text" placeholder="您的称呼" class="form-control" id="">
-			                        </div>
-			                        <div class="form-group col-md-4">
-			                            <input type="tel" placeholder="请输入您的手机号码" class="form-control" id="inputEmail4">
-			                        </div>
-			                        <div class="form-group col-md-4">
-			                            <input type="text" placeholder="请输入服务地址" class="form-control" id="inputPassword4">
-			                        </div>
-			                    </div>
-			                    <div class="form-row clearfix">
-			                        <div class="form-group col-md-4">
-			                            <div class='input-group date' id='datetimepicker2'>
-			                                <input type='text' class="form-control" />
-			                                <span class="input-group-addon">
-			                                    <span class="iconfont iconfont icon-arrDown"></span>
-			                                </span>
-			                            </div>
-			                        </div>
-			                        <div class="form-group col-md-4">
-			                            <input type="text" placeholder="备注：" class="form-control" id="inputEmail4">
-			                        </div>
-			                        <div class="form-group col-md-4">
-			                            <button type="button" class="btn btn-success  btn-block">立即预约</button>
-			                        </div>
-			                    </div>
-			                </form>
-			            </div>
+                            <form>
+                                <div class="form-row clearfix">
+                                    <div class="form-group col-md-4">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>请选择预约项目</option>
+                                            <option>日常保洁</option>
+                                            <option>开荒保洁</option>
+                                            <option>家电视频</option>
+                                            <option>上门除甲醛</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="tel" placeholder="请输入您的手机号码" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" placeholder="请输入服务地址" class="form-control" id="inputPassword4">
+                                    </div>
+                                </div>
+                                <div class="form-row clearfix">
+                                    <div class="form-group col-md-4">
+                                        <div class='input-group date' id='datetimepicker2'>
+                                            <input type='text' class="form-control" />
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+            
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" placeholder="备注：" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <button type="button" class="btn btn-success  btn-block">立即提交</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                     <div class="aldehydeService border_1px margin-top20 background_fff triangle box-shadow wow fadeInUp">
                     	<h2 class="margin-top40 text-center font-size22">除甲醛服务范围</h2>
@@ -287,12 +296,12 @@
                     	<div class="tableList">
                     		<div class="tableItem">
                     			<p class="p1">家庭级治理</p>
-                    			<p class="p2">40元/m²</p>
+                    			<p class="p2">28元/m²</p>
                     			<p class="p3">大面积商谈</p>
                     		</div>
                     		<div class="tableItem">
                     			<p class="p1">母婴级治理</p>
-                    			<p class="p2">50元/m²</p>
+                    			<p class="p2">38元/m²</p>
                     			<p class="p3">大面积商谈</p>
                     		</div>
                     		<div class="tableItem">
@@ -358,7 +367,7 @@
                     <div class="bottom-list bottom-list1">
                         <div class="zixun">在线咨询</div>
                         <p class="rexian">全国服务热线</p>
-                        <p class="dianhua">400-836-0510</p>
+                        <p class="dianhua">400-001-5021</p>
                         <p><span class="weixing"></span> <span class=" qq"></span> <span class=" weibo"></span></p>
                     </div>
                     <div class="bottom-list bottom-list2">

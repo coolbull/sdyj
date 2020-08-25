@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="font/demo.css">
     <link rel="stylesheet" href="font/iconfont.css">
     <link rel="stylesheet" href="css/openUpWasteland.css">
-    <link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="">
@@ -126,36 +128,43 @@
                     	<h2 class="margin-top40 text-center font-size22">家电清洗预约上门</h2>
                     	<p class="text-center font-size16">Door-to-<span class="color_119f50">time</span></p>
                     	<div class="appointment-share">
-			                <form>
-			                    <div class="form-row clearfix">
-			                        <div class="form-group col-md-4">
-			                            <input type="text" placeholder="您的称呼" class="form-control" id="">
-			                        </div>
-			                        <div class="form-group col-md-4">
-			                            <input type="tel" placeholder="请输入您的手机号码" class="form-control" id="inputEmail4">
-			                        </div>
-			                        <div class="form-group col-md-4">
-			                            <input type="text" placeholder="请输入服务地址" class="form-control" id="inputPassword4">
-			                        </div>
-			                    </div>
-			                    <div class="form-row clearfix">
-			                        <div class="form-group col-md-4">
-			                            <div class='input-group date' id='datetimepicker2'>
-			                                <input type='text' class="form-control" />
-			                                <span class="input-group-addon">
-			                                    <span class="iconfont iconfont icon-arrDown"></span>
-			                                </span>
-			                            </div>
-			                        </div>
-			                        <div class="form-group col-md-4">
-			                            <input type="text" placeholder="备注：" class="form-control" id="inputEmail4">
-			                        </div>
-			                        <div class="form-group col-md-4">
-			                            <button type="button" class="btn btn-success  btn-block">立即预约</button>
-			                        </div>
-			                    </div>
-			                </form>
-			            </div>
+                            <form>
+                                <div class="form-row clearfix">
+                                    <div class="form-group col-md-4">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>请选择预约项目</option>
+                                            <option>日常保洁</option>
+                                            <option>开荒保洁</option>
+                                            <option>家电视频</option>
+                                            <option>上门除甲醛</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="tel" placeholder="请输入您的手机号码" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" placeholder="请输入服务地址" class="form-control" id="inputPassword4">
+                                    </div>
+                                </div>
+                                <div class="form-row clearfix">
+                                    <div class="form-group col-md-4">
+                                        <div class='input-group date' id='datetimepicker2'>
+                                            <input type='text' class="form-control" />
+                                            <span class="input-group-addon">
+                                                <span class="glyphicon glyphicon-calendar"></span>
+                                            </span>
+            
+                                        </div>
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <input type="text" placeholder="备注：" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <button type="button" class="btn btn-success  btn-block">立即提交</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                     <div class="ServiceItems border_1px margin-top20 background_fff triangle box-shadow wow fadeInUp">
                     	<h2 class="margin-top40 text-center font-size22">家电清洗服务项目</h2>
@@ -205,51 +214,51 @@
                     	<p class="text-center font-size16 margin-top20">我们的价格都是严格按照市场价、价格透明化服务</p>
                     	<div class="MainList">
                     		<div class="Mainitem">
-                    			<p>油烟机：</p>
+                    			<p>空调挂机</p>
                     			<span>￥</span>
-                    			<p>300</p>
+                    			<p>88</p>
                     			<span>元</span>
                     		</div>
                     		<div class="Mainitem">
-                    			<p>油烟机：</p>
+                    			<p>空调柜机(方形):</p>
                     			<span>￥</span>
-                    			<p>300</p>
+                    			<p>128</p>
                     			<span>元</span>
                     		</div>
                     		<div class="Mainitem">
-                    			<p>油烟机：</p>
+                    			<p>空调柜机(圆形):</p>
                     			<span>￥</span>
-                    			<p>300</p>
+                    			<p>148</p>
                     			<span>元</span>
                     		</div>
                     		<div class="Mainitem">
-                    			<p>油烟机：</p>
+                    			<p>油烟机:</p>
                     			<span>￥</span>
-                    			<p>300</p>
+                    			<p>148</p>
                     			<span>元</span>
                     		</div>
                     		<div class="Mainitem">
-                    			<p>油烟机：</p>
+                    			<p>滚筒洗衣机:</p>
                     			<span>￥</span>
-                    			<p>300</p>
+                    			<p>168</p>
                     			<span>元</span>
                     		</div>
                     		<div class="Mainitem">
-                    			<p>油烟机：</p>
+                    			<p>波轮洗衣机:</p>
                     			<span>￥</span>
-                    			<p>300</p>
+                    			<p>128</p>
                     			<span>元</span>
                     		</div>
                     		<div class="Mainitem">
-                    			<p>油烟机：</p>
+                    			<p>冰箱双开门:</p>
                     			<span>￥</span>
-                    			<p>300</p>
+                    			<p>135</p>
                     			<span>元</span>
                     		</div>
                     		<div class="Mainitem">
-                    			<p>油烟机：</p>
+                    			<p>冰箱多开门:</p>
                     			<span>￥</span>
-                    			<p>300</p>
+                    			<p>148</p>
                     			<span>元</span>
                     		</div>
                     	</div>
@@ -337,7 +346,7 @@
                     <div class="bottom-list bottom-list1">
                         <div class="zixun">在线咨询</div>
                         <p class="rexian">全国服务热线</p>
-                        <p class="dianhua">400-836-0510</p>
+                        <p class="dianhua">400-001-5021</p>
                         <p><span class="weixing"></span> <span class=" qq"></span> <span class=" weibo"></span></p>
                     </div>
                     <div class="bottom-list bottom-list2">
